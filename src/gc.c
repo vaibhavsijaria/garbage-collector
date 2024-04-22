@@ -1,5 +1,6 @@
 #include "gc.h"
 #include "types.h"
+#include <stdlib.h>
 
 void mark(Object* obj)
 {

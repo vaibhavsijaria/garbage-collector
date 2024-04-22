@@ -2,6 +2,7 @@
 #define GC_H
 
 #include "types.h"
+#include <stdlib.h>
 
 void mark(Object* obj);
 void markAll(VM* vm);

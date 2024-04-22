@@ -1,3 +1,6 @@
+#ifndef TYPES_H
+#define TYPES_H
+
 #define STACK_MAX 256
 #define INITIAL_GC_THRESHOLD 50
 
@@ -35,3 +38,5 @@ typedef struct
   Object* stack[STACK_MAX];
   int stackSize;
 } VM;
+
+#endif
